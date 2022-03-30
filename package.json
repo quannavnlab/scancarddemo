@@ -1,0 +1,35 @@
+{
+  "name": "CardIO",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.12.1",
+    "react": "17.0.2",
+    "react-native": "0.67.3",
+    "react-native-awesome-card-io": "^0.9.0",
+    "react-native-i18n": "^2.0.15",
+    "react-native-image-converter": "^0.4.2",
+    "react-native-image-crop-picker": "^0.37.3",
+    "react-native-mlkit-ocr": "quannavnlab/react-native-mlkit-ocr"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/runtime": "^7.17.2",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "babel-jest": "^27.5.1",
+    "eslint": "^8.10.0",
+    "jest": "^27.5.1",
+    "metro-react-native-babel-preset": "^0.69.0",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
